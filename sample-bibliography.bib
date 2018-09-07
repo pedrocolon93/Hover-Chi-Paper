@@ -1,0 +1,2262 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%                        It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@Article{Abril07,
+  author        = "Patricia S. Abril and Robert Plant",
+  title         = "The patent holder's dilemma: Buy, sell, or troll?",
+  journal       = "Communications of the ACM",
+  volume        = "50",
+  number        = "1",
+  month         = jan,
+  year          = "2007",
+  pages         = "36--44",
+  doi           = "10.1145/1188913.1188915",
+  url           = "http://doi.acm.org/10.1145/1219092.1219093",
+  note          = "",
+}
+
+@Article{Cohen07,
+  author        = "Sarah Cohen and Werner Nutt and Yehoshua Sagic",
+  title         = "Deciding equivalances among conjunctive aggregate queries",
+  journal       = JACM,
+  articleno     = "5",
+  numpages      = "50",
+  volume        = "54",
+  number        = "2",
+  month         = apr,
+  year          = "2007",
+  doi           = "10.1145/1219092.1219093",
+  url           = "http://doi.acm.org/10.1145/1219092.1219093",
+  acmid         = "1219093",
+  note          = "",
+}
+
+
+@periodical{JCohen96,
+  key =          "Cohen",
+  editor =       "Jacques Cohen",
+  title =        "Special issue: Digital Libraries",
+  journal =      CACM,
+  volume =       "39",
+  number =       "11",
+  month =        nov,
+  year =         "1996",
+}
+
+
+@Book{Kosiur01,
+  author =       "David Kosiur",
+  title =        "Understanding Policy-Based Networking",
+  publisher =    "Wiley",
+  year =         "2001",
+  address =      "New York, NY",
+  edition =      "2nd.",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  series =       "",
+  month =        "",
+  note =         "",
+}
+
+
+@Book{Harel79,
+  author =       "David Harel",
+  year =         "1979",
+  title =        "First-Order Dynamic Logic",
+  series =       "Lecture Notes in Computer Science",
+  volume =       "68",
+  address =      "New York, NY",
+  publisher =    "Springer-Verlag",
+  doi =          "10.1007/3-540-09237-4",
+  url =          "http://dx.doi.org/10.1007/3-540-09237-4",
+  editor =       "",
+  number =       "",
+  month =        "",
+  note =         "",
+}
+
+
+@Inbook{Editor00,
+  author =       "",
+  editor =       "Ian Editor",
+  title =        "The title of book one",
+  subtitle =     "The book subtitle",
+  series =       "The name of the series one",
+  year =         "2007",
+  volume =       "9",
+  address =      "Chicago",
+  edition =      "1st.",
+  publisher =    "University of Chicago Press",
+  doi =          "10.1007/3-540-09237-4",
+  url =          "http://dx.doi.org/10.1007/3-540-09456-9",
+  chapter =      "",
+  pages =        "",
+  number =       "",
+  type =         "",
+  month =        "",
+  note =         "",
+}
+
+%
+@InBook{Editor00a,
+  author =       "",
+  editor =       "Ian Editor",
+  title =        "The title of book two",
+  subtitle =     "The book subtitle",
+  series =       "The name of the series two",
+  year =         "2008",
+  address =      "Chicago",
+  edition =      "2nd.",
+  publisher =    "University of Chicago Press",
+  doi =          "10.1007/3-540-09237-4",
+  url =          "http://dx.doi.org/10.1007/3-540-09456-9",
+  volume =       "",
+  chapter =      "100",
+  pages =        "",
+  number =       "",
+  type =         "",
+  month =        "",
+  note =         "",
+}
+
+
+% incollection (has an editor, title, and possibly a booktitle)
+@Incollection{Spector90,
+  author =       "Asad Z. Spector",
+  title =        "Achieving application requirements",
+  booktitle =    "Distributed Systems",
+  publisher =    "ACM Press",
+  address =      "New York, NY",
+  year =         "1990",
+  edition =      "2nd.",
+  chapter =      "",
+  editor =       "Sape Mullender",
+  pages =        "19--33",
+  doi =          "10.1145/90417.90738",
+  url =          "http://doi.acm.org/10.1145/90417.90738",
+  volume =       "",
+  number =       "",
+  series =       "",
+  type =         "",
+  month =        "",
+  note =         "",
+}
+
+
+% incollection (has an editor, title, and possibly a booktitle)
+@Incollection{Douglass98,
+  author =       "Bruce P. Douglass and David Harel and Mark B. Trakhtenbrot",
+  title =        "Statecarts in use: structured analysis and object-orientation",
+  series =       "Lecture Notes in Computer Science",
+  booktitle =    "Lectures on Embedded Systems",
+  publisher =    "Springer-Verlag",
+  address =      "London",
+  volume =       "1494",
+  year =         "1998",
+  chapter =      "",
+  editor =       "Grzegorz Rozenberg and Frits W. Vaandrager",
+  pages =        "368--394",
+  doi =          "10.1007/3-540-65193-4_29",
+  url =          "http://dx.doi.org/10.1007/3-540-65193-4_29",
+  edition =      "",
+  number =       "",
+  type =         "",
+  month =        "",
+  note =         "",
+}
+
+
+@Book{Knuth97,
+  author =       "Donald E. Knuth",
+  title =        "The Art of Computer Programming, Vol. 1: Fundamental Algorithms (3rd. ed.)",
+  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+  year =         "1997",
+  address =      "",
+  edition =      "",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  series =       "",
+  month =        "",
+  note =         "",
+}
+
+
+@Book{Knuth98,
+  author =       "Donald E. Knuth",
+  year =         "1998",
+  title =        "The Art of Computer Programming",
+  series =       "Fundamental Algorithms",
+  volume =       "1",
+  edition =      "3rd",
+  address =      "",
+  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+  doi =          "",
+  url =          "",
+  editor =       "",
+  number =       "",
+  month =        "",
+  note =         "(book)",
+}
+
+%Inbook{Knuth97,
+%  author =       "Donald E. Knuth",
+%  title =        "The Art of Computer Programming",
+%  booktitle =    "the booktitle",
+%  edition =      "3",
+%  volume =       "1",
+%  year =         "1997",
+%  publisher =    "Addison Wesley Longman Publishing Co., Inc.",
+%  editor =       "",
+%  number =       "",
+%  series =       "Fundamental Algorithms",
+%  type =         "",
+%  chapter =      "",
+%  pages =        "",
+%  address =      "",
+%  month =        "",
+%  note =         "(inbook)",
+%}
+
+%INBOOK{DK:73-inbook-full,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (inbook w series)",
+%   volume = 1,
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   edition = "Second",
+%   month = "10~" # jan,
+%   year = "1973",
+%   type = "Section",
+%   chapter = "1.2",
+%   pages = "10--119",
+%   note = "Full INBOOK entry (w series)",
+%}
+
+%INcollection{DK:74-incoll,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1974",
+%   pages = "10--119",
+%   editor = "Bernard Rous",
+%   note = "This is a full incoll entry with an editor",
+%}
+
+%INcollection{DK:75-incollws,
+%   author = "Donald E. Knuth",
+%   title = "Fundamental Algorithms (incoll w series)",
+%   volume = 1,
+%   booktitle = "The Art of Computer Programming",
+%   series = "The Art of Computer Programming",
+%   publisher = "Addison-Wesley",
+%   address = "Reading, Massachusetts",
+%   month = "10~" # jan,
+%   year = "1975",
+%   pages = "10--119",
+%   editor = "Bernard Rous",
+%   note = "This is a full incoll entry with an editor and series",
+%}
+
+
+@incollection{GM05,
+Author= "Dan Geiger and Christopher Meek",
+Title= "Structured Variational Inference Procedures and their Realizations (as incol)",
+Year= 2005,
+Booktitle="Proceedings of Tenth International Workshop on Artificial Intelligence and Statistics, {\rm The Barbados}",
+Publisher="The Society for Artificial Intelligence and Statistics",
+Month= jan,
+Editors= "Z. Ghahramani and R. Cowell"
+}
+
+@Inproceedings{Smith10,
+  author =       "Stan W. Smith",
+  title =        "An experiment in bibliographic mark-up: Parsing metadata for XML export",
+  booktitle =    "Proceedings of the 3rd. annual workshop on Librarians and Computers",
+  series =       "LAC '10",
+  editor =       "Reginald N. Smythe and Alexander Noble",
+  volume =       "3",
+  year =         "2010",
+  publisher =    "Paparazzi Press",
+  address =      "Milan Italy",
+  pages =        "422--431",
+  doi =          "99.9999/woot07-S422",
+  url =          "http://dx.doi.org/99.0000/woot07-S422",
+  number =       "",
+  month =        "",
+  organization = "",
+  note =         "",
+}
+
+@Inproceedings{VanGundy07,
+  author =       "Matthew Van Gundy and Davide Balzarotti and Giovanni Vigna",
+  year =         "2007",
+  title =        "Catch me, if you can: Evading network signatures with web-based polymorphic worms",
+  booktitle =    "Proceedings of the first USENIX workshop on Offensive Technologies",
+  series =       "WOOT '07",
+  publisher =    "USENIX Association",
+  address =      "Berkley, CA",
+  articleno =    "7",
+  numpages =     "9",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  pages =        "",
+  month =        "",
+  organization = "",
+  note =         "",
+}
+
+@Inproceedings{VanGundy08,
+  author =       "Matthew Van Gundy and Davide Balzarotti and Giovanni Vigna",
+  year =         "2008",
+  title =        "Catch me, if you can: Evading network signatures with web-based polymorphic worms",
+  booktitle =    "Proceedings of the first USENIX workshop on Offensive Technologies",
+  series =       "WOOT '08",
+  publisher =    "USENIX Association",
+  address =      "Berkley, CA",
+  articleno =    "7",
+  numpages =     "2",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  pages =        "99-100",
+  month =        "",
+  organization = "",
+  note =         "",
+}
+
+@Inproceedings{VanGundy09,
+  author =       "Matthew Van Gundy and Davide Balzarotti and Giovanni Vigna",
+  year =         "2009",
+  title =        "Catch me, if you can: Evading network signatures with web-based polymorphic worms",
+  booktitle =    "Proceedings of the first USENIX workshop on Offensive Technologies",
+  series =       "WOOT '09",
+  publisher =    "USENIX Association",
+  address =      "Berkley, CA",
+  articleno =    "",
+  numpages =     "",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  pages =        "90--100",
+  month =        "",
+  organization = "",
+  note =         "",
+}
+
+@Inproceedings{Andler79,
+  author =       "Sten Andler",
+  title =        "Predicate Path expressions",
+  booktitle =    "Proceedings of the 6th. ACM SIGACT-SIGPLAN symposium on Principles of Programming Languages",
+  series =       "POPL '79",
+  year =         "1979",
+  publisher =    "ACM Press",
+  address =      "New York, NY",
+  pages =        "226--236",
+  doi =          "10.1145/567752.567774",
+  url =          "http://doi.acm.org/10.1145/567752.567774",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  month =        "",
+  organization = "",
+  note =         "",
+}
+
+@Techreport{Harel78,
+  author =       "David Harel",
+  year =         "1978",
+  title =        "LOGICS of Programs: AXIOMATICS and DESCRIPTIVE POWER",
+  institution =  "Massachusetts Institute of Technology",
+  type =         "MIT Research Lab Technical Report",
+  number =       "TR-200",
+  address =      "Cambridge, MA",
+  month =        "",
+  note =         "",
+}
+
+@MASTERSTHESIS{anisi03,
+author = {David A. Anisi},
+title = {Optimal Motion Control of a Ground Vehicle},
+school = {Royal Institute of Technology (KTH), Stockholm, Sweden},
+intitution = {FOI-R-0961-SE, Swedish Defence Research Agency (FOI)},
+year = {2003},
+}
+
+
+@Phdthesis{Clarkson85,
+  author =       "Kenneth L. Clarkson",
+  year =         "1985",
+  title =        "Algorithms for Closest-Point Problems (Computational Geometry)",
+  school =       "Stanford University",
+  address =      "Palo Alto, CA",
+  note =         "UMI Order Number: AAT 8506171",
+  type =         "",
+  month =        "",
+}
+
+
+@online{Thornburg01,
+  author =       "Harry Thornburg",
+  year =         "2001",
+  title =        "Introduction to Bayesian Statistics",
+  url =          "http://ccrma.stanford.edu/~jos/bayes/bayes.html",
+  month =        mar,
+  lastaccessed = "March 2, 2005",
+}
+
+
+@online{Ablamowicz07,
+  author =       "Rafal Ablamowicz and Bertfried Fauser",
+  year =         "2007",
+  title =        "CLIFFORD: a Maple 11 Package for Clifford Algebra Computations, version 11",
+  url =          "http://math.tntech.edu/rafal/cliff11/index.html",
+  lastaccessed = "February 28, 2008",
+}
+
+
+@misc{Poker06,
+  author =       "Poker-Edge.Com",
+  year =         "2006",
+  month =        mar,
+  title =        "Stats and Analysis",
+  lastaccessed = "June 7, 2006",
+  url =          "http://www.poker-edge.com/stats.php",
+}
+
+@misc{Obama08,
+  author        = "Barack Obama",
+  year          = "2008",
+  title         = "A more perfect union",
+  howpublished  = "Video",
+  day           = "5",
+  url           = "http://video.google.com/videoplay?docid=6528042696351994555",
+  month         = mar,
+  lastaccessed  = "March 21, 2008",
+  note          =  "",
+}
+
+@misc{JoeScientist001,
+  author =       "Joseph Scientist",
+  year =         "2009",
+  title =        "The fountain of youth",
+  note =         "Patent No. 12345, Filed July 1st., 2008, Issued Aug. 9th., 2009",
+  url =          "",
+  howpublished = "",
+  month =        aug,
+  lastaccessed = "",
+}
+
+
+@Inproceedings{Novak03,
+  author =       "Dave Novak",
+  title =        "Solder man",
+  booktitle =    "ACM SIGGRAPH 2003 Video Review on Animation theater Program: Part I - Vol. 145 (July 27--27, 2003)",
+  year =         "2003",
+  publisher =    "ACM Press",
+  address =      "New York, NY",
+  pages =        "4",
+  month =        "March 21, 2008",
+  doi =          "99.9999/woot07-S422",
+  url =          "http://video.google.com/videoplay?docid=6528042696351994555",
+  note =         "",
+  howpublished = "Video",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  series =       "",
+  organization = "",
+}
+
+
+@article{Lee05,
+  author =       "Newton Lee",
+  year =         "2005",
+  title =        "Interview with Bill Kinder: January 13, 2005",
+  journal =      "Comput. Entertain.",
+  eid =          "4",
+  volume =       "3",
+  number =       "1",
+  month =        "Jan.-March",
+  doi =          "10.1145/1057270.1057278",
+  url =          "http://doi.acm.org/10.1145/1057270.1057278",
+  howpublished = "Video",
+  note =         "",
+}
+
+@article{Rous08,
+  author =       "Bernard Rous",
+  year =         "2008",
+  title =        "The Enabling of Digital Libraries",
+  journal =      "Digital Libraries",
+  volume =       "12",
+  number =       "3",
+  month =        jul,
+  articleno =    "5",
+  doi =          "",
+  url =          "",
+  howpublished = "",
+  note =         "To appear",
+}
+
+@article{384253,
+ author = {Werneck,, Renato and Setubal,, Jo\~{a}o and da Conceic\~{a}o,, Arlindo},
+ title = {(old) Finding minimum congestion spanning trees},
+ journal = {J. Exp. Algorithmics},
+ volume = {5},
+ year = {2000},
+ issn = {1084-6654},
+ pages = {11},
+ doi = {http://doi.acm.org/10.1145/351827.384253},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+
+@article{Werneck:2000:FMC:351827.384253,
+ author = {Werneck, Renato and Setubal, Jo\~{a}o and da Conceic\~{a}o, Arlindo},
+ title = {(new) Finding minimum congestion spanning trees},
+ journal = {J. Exp. Algorithmics},
+ volume = {5},
+ month = dec,
+ year = {2000},
+ issn = {1084-6654},
+ articleno = {11},
+ url = {http://portal.acm.org/citation.cfm?id=351827.384253},
+ doi = {10.1145/351827.384253},
+ acmid = {384253},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@article{1555162,
+ author = {Conti, Mauro and Di Pietro, Roberto and Mancini, Luigi V. and Mei, Alessandro},
+ title = {(old) Distributed data source verification in wireless sensor networks},
+ journal = {Inf. Fusion},
+ volume = {10},
+ number = {4},
+ year = {2009},
+ issn = {1566-2535},
+ pages = {342--353},
+ doi = {http://dx.doi.org/10.1016/j.inffus.2009.01.002},
+ publisher = {Elsevier Science Publishers B. V.},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ }
+
+@article{Conti:2009:DDS:1555009.1555162,
+ author = {Conti, Mauro and Di Pietro, Roberto and Mancini, Luigi V. and Mei, Alessandro},
+ title = {(new) Distributed data source verification in wireless sensor networks},
+ journal = {Inf. Fusion},
+ volume = {10},
+ number = {4},
+ month = oct,
+ year = {2009},
+ issn = {1566-2535},
+ pages = {342--353},
+ numpages = {12},
+ url = {http://portal.acm.org/citation.cfm?id=1555009.1555162},
+ doi = {10.1016/j.inffus.2009.01.002},
+ acmid = {1555162},
+ publisher = {Elsevier Science Publishers B. V.},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {Clone detection, Distributed protocol, Securing data fusion, Wireless sensor networks},
+}
+
+@inproceedings{Li:2008:PUC:1358628.1358946,
+ author = {Li, Cheng-Lun and Buyuktur, Ayse G. and Hutchful, David K. and Sant, Natasha B. and Nainwal, Satyendra K.},
+ title = {Portalis: using competitive online interactions to support aid initiatives for the homeless},
+ booktitle = {CHI '08 extended abstracts on Human factors in computing systems},
+ year = {2008},
+ isbn = {978-1-60558-012-X},
+ location = {Florence, Italy},
+ pages = {3873--3878},
+ numpages = {6},
+ url = {http://portal.acm.org/citation.cfm?id=1358628.1358946},
+ doi = {10.1145/1358628.1358946},
+ acmid = {1358946},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {cscw, distributed knowledge acquisition, incentive design, online games, recommender systems, reputation systems, user studies, virtual community},
+}
+
+@book{Hollis:1999:VBD:519964,
+ author = {Hollis, Billy S.},
+ title = {Visual Basic 6: Design, Specification, and Objects with Other},
+ year = {1999},
+ isbn = {0130850845},
+ edition = {1st},
+ publisher = {Prentice Hall PTR},
+ address = {Upper Saddle River, NJ, USA},
+ }
+
+
+@book{Goossens:1999:LWC:553897,
+ author = {Goossens, Michel and Rahtz, S. P. and Moore, Ross and Sutor, Robert S.},
+ title = {The  Latex Web Companion: Integrating TEX, HTML, and XML},
+ year = {1999},
+ isbn = {0201433117},
+ edition = {1st},
+ publisher = {Addison-Wesley Longman Publishing Co., Inc.},
+ address = {Boston, MA, USA},
+ }
+
+% need to test genres for errant isbn output
+
+% techreport
+@techreport{897367,
+ author = {Buss, Jonathan F. and Rosenberg, Arnold L. and Knott, Judson D.},
+ title = {Vertex Types in Book-Embeddings},
+ year = {1987},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Aumass_cs%3Ancstrl.umassa_cs%2F%2FUM-CS-1987-018},
+ publisher = {University of Massachusetts},
+ address = {Amherst, MA, USA},
+ }
+
+@techreport{Buss:1987:VTB:897367,
+ author = {Buss, Jonathan F. and Rosenberg, Arnold L. and Knott, Judson D.},
+ title = {Vertex Types in Book-Embeddings},
+ year = {1987},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Aumass_cs%3Ancstrl.umassa_cs%2F%2FUM-CS-1987-018},
+ publisher = {University of Massachusetts},
+ address = {Amherst, MA, USA},
+ }
+
+% whole proceedings
+
+@proceedings{Czerwinski:2008:1358628,
+ author = {},
+ note = {General Chair-Czerwinski, Mary and General Chair-Lund, Arnie and Program Chair-Tan, Desney},
+ title = {CHI '08: CHI '08 extended abstracts on Human factors in computing systems},
+ year = {2008},
+ isbn = {978-1-60558-012-X},
+ location = {Florence, Italy},
+ order_no = {608085},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+% phdthesis
+
+@phdthesis{Clarkson:1985:ACP:911891,
+ author = {Clarkson, Kenneth Lee},
+ advisor = {Yao, Andrew C.},
+ title = {Algorithms for Closest-Point Problems (Computational Geometry)},
+ year = {1985},
+ note = {AAT 8506171},
+ school = {Stanford University},
+ address = {Stanford, CA, USA},
+ }
+% school is being picked up -- but not publisher (which is OK)
+% Also -- the title is NOT being output in italics !!! Arrrrgh! - I fixed it. :-)
+
+
+%%% compare with 'old'
+%%% atsign-Phdthesis{Clarkson85,
+%%%  author =       "Kenneth L. Clarkson",
+%%%  year =         "1985",
+%%%  title =        "Algorithms for Closest-Point Problems (Computational Geometry)",
+%%%  school =       "Stanford University",
+%%%  address =      "Palo Alto, CA",
+%%%  note =         "UMI Order Number: AAT 8506171",
+%%%  type =         "",
+%%%  month =        "",
+%%%}
+
+% A bibliography
+@Article{1984:1040142,
+ key = {{$\!\!$}},
+ journal = {SIGCOMM Comput. Commun. Rev.},
+ year = {1984},
+ issn = {0146-4833},
+ volume = {13-14},
+ number = {5-1},
+ issue_date = {January/April 1984},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+
+% grinder
+@inproceedings{2004:ITE:1009386.1010128,
+ key = {IEEE},
+ title = {IEEE TCSC Executive Committee},
+ booktitle = {Proceedings of the IEEE International Conference on Web Services},
+ series = {ICWS '04},
+ year = {2004},
+ isbn = {0-7695-2167-3},
+ pages = {21--22},
+ url = {http://dx.doi.org/10.1109/ICWS.2004.64},
+ doi = {http://dx.doi.org/10.1109/ICWS.2004.64},
+ acmid = {1010128},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+}
+
+% div book
+@book{Mullender:1993:DS(:302430,
+ editor = {Mullender, Sape},
+ title = {Distributed systems (2nd Ed.)},
+ year = {1993},
+ isbn = {0-201-62427-3},
+ publisher = {ACM Press/Addison-Wesley Publishing Co.},
+ address = {New York, NY, USA},
+ }
+
+% master thesis (as techreport and thesis)
+
+@techreport{Petrie:1986:NAD:899644,
+ author = {Petrie, Charles J.},
+ title = {New Algorithms for Dependency-Directed Backtracking (Master's thesis)},
+ year = {1986},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Autexas_cs%3AUTEXAS_CS%2F%2FAI86-33},
+ publisher = {University of Texas at Austin},
+ address = {Austin, TX, USA},
+ }
+
+@MASTERSTHESIS{Petrie:1986:NAD:12345,
+ author = {Petrie, Charles J.},
+ title = {New Algorithms for Dependency-Directed Backtracking (Master's thesis)},
+ year = {1986},
+ source = {http://www.ncstrl.org:8900/ncstrl/servlet/search?formname=detail\&id=oai%3Ancstrlh%3Autexas_cs%3AUTEXAS_CS%2F%2FAI86-33},
+ school = {University of Texas at Austin},
+ address = {Austin, TX, USA},
+ }
+
+
+
+
+@BOOK{book-minimal,
+   author = "Donald E. Knuth",
+   title = "Seminumerical Algorithms",
+   publisher = "Addison-Wesley",
+   year = "1981",
+}
+
+% incollection (has an editor, title, and possibly a booktitle)
+@INcollection{KA:2001,
+ author = {Kong, Wei-Chang},
+ Title = {The implementation of electronic commerce in SMEs in Singapore (as Incoll)},
+ booktitle = {E-commerce and cultural values},
+ year = {2001},
+ isbn = {1-59140-056-2},
+ pages = {51--74},
+ numpages = {24},
+ url = {http://portal.acm.org/citation.cfm?id=887006.887010},
+ acmid = {887010},
+ publisher = {IGI Publishing},
+ address = {Hershey, PA, USA},
+}
+
+
+% with bibfield 'type' before chapter (note no editor)
+@INBOOK{KAGM:2001,
+ author = {Kong, Wei-Chang},
+ type = {Name of Chapter:},
+ chapter = {The implementation of electronic commerce in SMEs in Singapore (Inbook-w-chap-w-type)},
+ title = {E-commerce and cultural values},
+ year = {2001},
+ isbn = {1-59140-056-2},
+ pages = {51--74},
+ numpages = {24},
+ url = {http://portal.acm.org/citation.cfm?id=887006.887010},
+ acmid = {887010},
+ publisher = {IGI Publishing},
+ address = {Hershey, PA, USA},
+}
+
+%%% Notes! This is because the atsign-INBOOK citation type specifies EITHER
+%%% editor or author, but not both. In my experiments with the harvard/dcu
+%%% bibtex style (and presumably this applies to other styles too), bibtex
+%%% ignores the editor information if author information exists in an
+%%% atsign-INBOOK entry. atsign-INCOLLECTION is far more commonly used in my references,
+%%% and in the absence of an editor I believe most bibtex styles will just
+%%% ommit the editor from the reference - the chapter information will not
+%%% end up in the in-text citation as you suggest it should be but at least
+%%% there is a place to put the editor if necessary.
+
+
+
+% was 'Inbook' -- changed to incollection - (editor is different to author) - need to tell Asad to codify as such.
+@incollection{Kong:2002:IEC:887006.887010,
+  author =      {Kong, Wei-Chang},
+  editor =      {Theerasak Thanasankit},
+  title =       {Chapter 9},
+  booktitle =   {E-commerce and cultural values (Incoll-w-text (chap 9) 'title')},
+  year =        {2002},
+  address =     {Hershey, PA, USA},
+  publisher =   {IGI Publishing},
+  url =         {http://portal.acm.org/citation.cfm?id=887006.887010},
+  pages =       {51--74},
+  numpages =    {24},
+  acmid =       {887010},
+  isbn =        {1-59140-056-2},
+  number =      "",
+  type =        "",
+  month =       "",
+  note =        "",
+}
+
+% incol when the chapter is 'text' - due to presence of editor (different to author)
+@incollection{Kong:2003:IEC:887006.887011,
+ author = {Kong, Wei-Chang},
+ title = {The implementation of electronic commerce in SMEs in Singapore (Incoll)},
+ booktitle = {E-commerce and cultural values},
+ editor = {Thanasankit, Theerasak},
+ year = {2003},
+ isbn = {1-59140-056-2},
+ pages = {51--74},
+ numpages = {24},
+ url = {http://portal.acm.org/citation.cfm?id=887006.887010},
+ acmid = {887010},
+ publisher = {IGI Publishing},
+ address = {Hershey, PA, USA},
+}
+
+% ------ test
+%incollection{Kong:2003:IEC:887006.887010,
+% author = {Kong, Wei-Chang},
+% chapter = {The implementation of electronic commerce in SMEs in Singapore (Incoll-text-in-chap)},
+% booktitle = {booktitle E-commerce and cultural values},
+% title =   {The title},
+% editor = {Thanasankit, Theerasak},
+% year = {2003},
+% isbn = {1-59140-056-2},
+% pages = {51--74},
+% numpages = {24},
+% url = {http://portal.acm.org/citation.cfm?id=887006.887010},
+% acmid = {887010},
+% publisher = {IGI Publishing},
+% address = {Hershey, PA, USA},
+%}
+
+
+% ---------
+
+
+
+
+
+% Need inbook with num in chapter
+
+% and inbook with number in chapter
+@InBook{Kong:2004:IEC:123456.887010,
+  author =      {Kong, Wei-Chang},
+  editor =      {Theerasak Thanasankit},
+  title =       {E-commerce and cultural values - (InBook-num-in-chap)},
+  chapter =     {9},
+  year =        {2004},
+  address =     {Hershey, PA, USA},
+  publisher =   {IGI Publishing},
+  url =         {http://portal.acm.org/citation.cfm?id=887006.887010},
+  pages =       {51--74},
+  numpages =    {24},
+  acmid =       {887010},
+  isbn =        {1-59140-056-2},
+  number =      "",
+  type =        "",
+  month =       "",
+  note =        "",
+}
+
+
+% and inbook with text in chapter
+@Inbook{Kong:2005:IEC:887006.887010,
+  author =      {Kong, Wei-Chang},
+  editor =      {Theerasak Thanasankit},
+  title =       {E-commerce and cultural values (Inbook-text-in-chap)},
+  chapter =     {The implementation of electronic commerce in SMEs in Singapore},
+  year =        {2005},
+  address =     {Hershey, PA, USA},
+  publisher =   {IGI Publishing},
+  url =         {http://portal.acm.org/citation.cfm?id=887006.887010},
+  type =        {Chapter:},
+  pages =       {51--74},
+  numpages =    {24},
+  acmid =       {887010},
+  isbn =        {1-59140-056-2},
+  number =      "",
+  month =       "",
+  note =        "",
+}
+
+
+% and inbook with a num and type field
+@Inbook{Kong:2006:IEC:887006.887010,
+  author =      {Kong, Wei-Chang},
+  editor =      {Theerasak Thanasankit},
+  title =       {E-commerce and cultural values (Inbook-num chap)},
+  chapter =     {22},
+  year =        {2006},
+  address =     {Hershey, PA, USA},
+  publisher =   {IGI Publishing},
+  url =         {http://portal.acm.org/citation.cfm?id=887006.887010},
+  type =        {Chapter (in type field)},
+  pages =       {51--74},
+  numpages =    {24},
+  acmid =       {887010},
+  isbn =        {1-59140-056-2},
+  number =      "",
+  month =       "",
+  note =        "",
+}
+
+
+% and incol coz we have a BLANK chapter - due to presence of editor
+%atIncollection{Kong:2006:IEC:887006.887011,
+%  author =     {Kong, Wei-Chang},
+%  editor =     {Theerasak Thanasankit},
+%  title =      "The title"
+%  booktitle =  {E-commerce and cultural values (Incol-coz-blank-chap)},
+%  year =       {2006},
+%  address =    {Hershey, PA, USA},
+%  publisher =  {IGI Publishing},
+%  url =        {http://portal.acm.org/citation.cfm?id=887006.887010},
+%  type =       {Type!},
+%  chapter =    {},
+%  pages =      {51--74},
+%  numpages =   {24},
+%  acmid =      {887010},
+%  isbn =       {1-59140-056-2},
+%  number =     "",
+%  month =      "",
+%  note =       "",
+%}
+
+@article{SaeediMEJ10,
+            author = {Mehdi Saeedi and Morteza Saheb Zamani and Mehdi Sedighi},
+            title = {A library-based synthesis methodology for reversible logic},
+            journal = {Microelectron. J.},
+            volume = {41},
+            number = {4},
+            month = apr,
+            year = {2010},
+            pages = {185--194},
+}
+
+@ARTICLE{SaeediJETC10,
+            author = {Mehdi Saeedi and Morteza Saheb Zamani and Mehdi Sedighi and Zahra Sasanian},
+            title = {Synthesis of Reversible Circuit Using Cycle-Based Approach},
+            journal = {J. Emerg. Technol. Comput. Syst.},
+            volume = {6},
+            number = {4},
+            month = dec,
+            year = {2010}
+            }
+
+% Asad's new version
+@article{Kirschmer:2010:AEI:1958016.1958018,
+ author = {Kirschmer, Markus and Voight, John},
+ title = {Algorithmic Enumeration of Ideal Classes for Quaternion Orders},
+ journal = {SIAM J. Comput.},
+ issue_date = {January 2010},
+ volume = {39},
+ number = {5},
+ month = jan,
+ year = {2010},
+ issn = {0097-5397},
+ pages = {1714--1747},
+ numpages = {34},
+ url = {http://dx.doi.org/10.1137/080734467},
+ doi = {https://doi.org/10.1137/080734467},
+ acmid = {1958018},
+ publisher = {Society for Industrial and Applied Mathematics},
+ address = {Philadelphia, PA, USA},
+ keywords = {ideal classes, maximal orders, number theory, quaternion algebras},
+}
+
+
+% incol due to presence of booktitle
+@incollection{Hoare:1972:CIN:1243380.1243382,
+ author = {Hoare, C. A. R.},
+ title = {Chapter II: Notes on data structuring},
+ booktitle = {Structured programming (incoll)},
+ editor = {Dahl, O. J. and Dijkstra, E. W. and Hoare, C. A. R.},
+ year = {1972},
+ isbn = {0-12-200550-3},
+ pages = {83--174},
+ numpages = {92},
+ url = {http://portal.acm.org/citation.cfm?id=1243380.1243382},
+ acmid = {1243382},
+ publisher = {Academic Press Ltd.},
+ address = {London, UK, UK},
+}
+
+% incol due to presence of booktitle
+@incollection{Lee:1978:TQA:800025.1198348,
+ author = {Lee, Jan},
+ title = {Transcript of question and answer session},
+ booktitle = {History of programming languages I (incoll)},
+ editor = {Wexelblat, Richard L.},
+ year = {1981},
+ isbn = {0-12-745040-8},
+ pages = {68--71},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/800025.1198348},
+ doi = {http://doi.acm.org/10.1145/800025.1198348},
+ acmid = {1198348},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+% incol due to booktitle
+@incollection{Dijkstra:1979:GSC:1241515.1241518,
+ author = {Dijkstra, E.},
+ title = {Go to statement considered harmful},
+ booktitle = {Classics in software engineering (incoll)},
+ year = {1979},
+ isbn = {0-917072-14-6},
+ pages = {27--33},
+ numpages = {7},
+ url = {http://portal.acm.org/citation.cfm?id=1241515.1241518},
+ acmid = {1241518},
+ publisher = {Yourdon Press},
+ address = {Upper Saddle River, NJ, USA},
+}
+
+% incol due to booktitle
+@incollection{Wenzel:1992:TVA:146022.146089,
+ author = {Wenzel, Elizabeth M.},
+ title = {Three-dimensional virtual acoustic displays},
+ booktitle = {Multimedia interface design (incoll)},
+ year = {1992},
+ isbn = {0-201-54981-6},
+ pages = {257--288},
+ numpages = {32},
+ url = {http://portal.acm.org/citation.cfm?id=146022.146089},
+ doi = {10.1145/146022.146089},
+ acmid = {146089},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+% incol due to booktitle
+@incollection{Mumford:1987:MES:54905.54911,
+ author = {Mumford, E.},
+ title = {Managerial expert systems and organizational change: some critical research issues},
+ booktitle = {Critical issues in information systems research (incoll)},
+ year = {1987},
+ isbn = {0-471-91281-6},
+ pages = {135--155},
+ numpages = {21},
+ url = {http://portal.acm.org/citation.cfm?id=54905.54911},
+ acmid = {54911},
+ publisher = {John Wiley \& Sons, Inc.},
+ address = {New York, NY, USA},
+}
+
+@book{McCracken:1990:SSC:575315,
+ author = {McCracken, Daniel D. and Golden, Donald G.},
+ title = {Simplified Structured COBOL with Microsoft/MicroFocus COBOL},
+ year = {1990},
+ isbn = {0471514071},
+ publisher = {John Wiley \& Sons, Inc.},
+ address = {New York, NY, USA},
+}
+
+% Let's include Boris / BBeeton entries  (multi-volume works)
+
+@book {MR781537,
+    AUTHOR = {H{\"o}rmander, Lars},
+     TITLE = {The analysis of linear partial differential operators. {III}},
+    SERIES = {Grundlehren der Mathematischen Wissenschaften [Fundamental
+              Principles of Mathematical Sciences]},
+    VOLUME = {275},
+      NOTE = {Pseudodifferential operators},
+PUBLISHER = {Springer-Verlag},
+   ADDRESS = {Berlin, Germany},
+      YEAR = {1985},
+     PAGES = {viii+525},
+      ISBN = {3-540-13828-5},
+   MRCLASS = {35-02 (35Sxx 47G05 58G15)},
+  MRNUMBER = {781536 (87d:35002a)},
+MRREVIEWER = {Min You Qi},
+}
+
+@book {MR781536,
+    AUTHOR = {H{\"o}rmander, Lars},
+     TITLE = {The analysis of linear partial differential operators. {IV}},
+    SERIES = {Grundlehren der Mathematischen Wissenschaften [Fundamental
+              Principles of Mathematical Sciences]},
+    VOLUME = {275},
+      NOTE = {Fourier integral operators},
+PUBLISHER = {Springer-Verlag},
+   ADDRESS = {Berlin, Germany},
+      YEAR = {1985},
+     PAGES = {vii+352},
+      ISBN = {3-540-13829-3},
+   MRCLASS = {35-02 (35Sxx 47G05 58G15)},
+  MRNUMBER = {781537 (87d:35002b)},
+MRREVIEWER = {Min You Qi},
+}
+
+%%%%%%%%%%%%%%%%%%%%%% Start of Aptara sample bib entries
+
+% acmsmall-sam.bib
+@InProceedings{Adya-01,
+  author        = {A. Adya and P. Bahl and J. Padhye and A.Wolman and L. Zhou},
+  title         = {A multi-radio unification protocol for {IEEE} 802.11 wireless networks},
+  booktitle     = {Proceedings of the IEEE 1st International Conference on Broadnets Networks (BroadNets'04)},
+  publisher     = "IEEE",
+  address       = "Los Alamitos, CA",
+  year          = {2004},
+  pages         = "210--217"
+}
+
+@article{Akyildiz-01,
+  author        = {I. F. Akyildiz and W. Su and Y. Sankarasubramaniam and E. Cayirci},
+  title         = {Wireless Sensor Networks: A Survey},
+  journal       = {Comm. ACM},
+  volume        = 38,
+  number        = "4",
+  year          = {2002},
+  pages         = "393--422"
+}
+
+@article{Akyildiz-02,
+  author        = {I. F. Akyildiz and T. Melodia and K. R. Chowdhury},
+  title         = {A Survey on Wireless Multimedia Sensor Networks},
+  journal       = {Computer Netw.},
+  volume        = 51,
+  number        = "4",
+  year          = {2007},
+  pages         = "921--960"
+}
+
+@InProceedings{Bahl-02,
+  author        = {P. Bahl and R. Chancre and J. Dungeon},
+  title         = {{SSCH}: Slotted Seeded Channel Hopping for Capacity Improvement in {IEEE} 802.11 Ad-Hoc Wireless Networks},
+  booktitle     = {Proceeding of the 10th International Conference on Mobile Computing and Networking (MobiCom'04)},
+  publisher     = "ACM",
+  address       = "New York, NY",
+  year          = {2004},
+  pages         = "112--117"
+}
+
+@misc{CROSSBOW,
+  key       = {CROSSBOW},
+  title     = {{XBOW} Sensor Motes Specifications},
+  note      = {http://www.xbow.com},
+  year      = 2008
+}
+
+@article{Culler-01,
+  author        = {D. Culler and D. Estrin and M. Srivastava},
+  title         = {Overview of Sensor Networks},
+  journal       = {IEEE Comput.},
+  volume        = 37,
+  number        = "8 (Special Issue on Sensor Networks)",
+  publisher     = "IEEE",
+  address       = "Los Alamitos, CA",
+  year          = {2004},
+  pages         = "41--49"
+}
+
+@misc{Harvard-01,
+    key         = {Harvard CodeBlue},
+    title       = {{CodeBlue}: Sensor Networks for Medical Care},
+    note        = {http://www.eecs.harvard.edu/mdw/ proj/codeblue/},
+    year        = 2008
+}
+
+@InProceedings{Natarajan-01,
+    author      = {A. Natarajan and M. Motani and B. de Silva and K. Yap and K. C. Chua},
+    title       = {Investigating Network Architectures for Body Sensor Networks},
+    booktitle   = {Network Architectures},
+    editor      = {G. Whitcomb and P. Neece},
+    publisher   = "Keleuven Press",
+    address     = "Dayton, OH",
+    year        = {2007},
+    pages       = "322--328",
+    eprint      = "960935712",
+    primaryclass = "cs",
+}
+
+@techreport{Tzamaloukas-01,
+  author        = {A. Tzamaloukas and J. J. Garcia-Luna-Aceves},
+  title         = {Channel-Hopping Multiple Access},
+  number =        {I-CA2301},
+  institution =   {Department of Computer Science, University of California},
+  address =       {Berkeley, CA},
+  year          = {2000}
+}
+
+@BOOK{Zhou-06,
+  author        = {G. Zhou and J. Lu and C.-Y. Wan and M. D. Yarvis and J. A. Stankovic},
+  title         = {Body Sensor Networks},
+  publisher     = "MIT Press",
+  address       = "Cambridge, MA",
+  year          = {2008}
+}
+
+@mastersthesis{ko94,
+author = "Jacob Kornerup",
+title = "Mapping Powerlists onto Hypercubes",
+school = "The University of Texas at Austin",
+note = "(In preparation)",
+year = "1994"}
+%month = "dec",}
+
+@PhdThesis{gerndt:89,
+  author =       "Michael Gerndt",
+  title =        "Automatic Parallelization for Distributed-Memory
+                  Multiprocessing Systems",
+  school =       "University of Bonn",
+  year =         1989,
+  address =      "Bonn, Germany",
+  month =        dec
+}
+
+@article{6:1:1,
+author = "J. E. {Archer, Jr.} and R. Conway and F. B. Schneider",
+title = "User recovery and reversal in interactive systems",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "6",
+number = "1",
+month = jan,
+year = 1984,
+pages = "1--19"}
+
+@article{7:1:137,
+author = "D. D. Dunlop and V. R. Basili",
+title = "Generalizing specifications for uniformly implemented loops",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "7",
+number = "1",
+month = jan,
+year = 1985,
+pages = "137--158"}
+
+@article{7:2:183,
+author = "J. Heering and P. Klint",
+title = "Towards monolingual programming environments",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "7",
+number = "2",
+month = apr,
+year = 1985,
+pages = "183--213"}
+
+@book{knuth:texbook,
+author = "Donald E. Knuth",
+title = "The {\TeX{}book}",
+publisher = "Addison-Wesley",
+address = "Reading, MA.",
+year = 1984}
+
+@article{6:3:380,
+author = "E. Korach and D.  Rotem and N. Santoro",
+title = "Distributed algorithms for finding centers and medians in networks",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "6",
+number = "3",
+month = jul,
+year = 1984,
+pages = "380--401"}
+
+@book{lamport:latex,
+author = "Leslie Lamport",
+title = "\it {\LaTeX}: A Document Preparation System",
+publisher = "Addison-Wesley",
+address = "Reading, MA.",
+year = 1986}
+
+@article{7:3:359,
+author = "F. Nielson",
+title = "Program transformations in a denotational setting",
+journal = "ACM Trans. Program. Lang. Syst.",
+volume =  "7",
+number = "3",
+month = jul,
+year = 1985,
+pages = "359--379"}
+
+%testing
+@BOOK{test,
+   author = "Donald E. Knuth",
+   title = "Seminumerical Algorithms",
+   volume = 2,
+   series = "The Art of Computer Programming",
+   publisher = "Addison-Wesley",
+   address = "Reading, MA",
+   edition = "2nd",
+   month = "10~" # jan,
+   year = "1981",
+}
+
+@inproceedings{reid:scribe,
+author = "Brian K. Reid",
+title = "A high-level approach to computer document formatting",
+booktitle = "Proceedings of the 7th Annual Symposium on Principles of
+  Programming Languages",
+month = jan,
+year = 1980,
+publisher = "ACM",
+address = "New York",
+pages = "24--31"}
+
+@article{Zhou:2010:MMS:1721695.1721705,
+ author = {Zhou, Gang and Wu, Yafeng and Yan, Ting and He, Tian and Huang, Chengdu and Stankovic, John A. and Abdelzaher, Tarek F.},
+ title = {A multifrequency MAC specially designed for wireless sensor network applications},
+ journal = {ACM Trans. Embed. Comput. Syst.},
+ issue_date = {March 2010},
+ volume = 9,
+ number = 4,
+ month = {April},
+ year = 2010,
+ issn = {1539-9087},
+ pages = {39:1--39:41},
+ articleno = 39,
+ numpages = 41,
+ url = {http://doi.acm.org/10.1145/1721695.1721705},
+ doi = {10.1145/1721695.1721705},
+ acmid = 1721705,
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Wireless sensor networks, media access control, multi-channel, radio interference, time synchronization},
+}
+
+
+@online{TUGInstmem,
+  key =          {TUG},
+  year  =        2017,
+  title =        "Institutional members of the {\TeX} Users Group",
+  url =          "http://wwtug.org/instmem.html",
+  lastaccessed = "May 27, 2017",
+}
+
+@online{CTANacmart,
+  author =    {Boris Veytsman},
+  title =  {acmart---{C}lass for typesetting publications of {ACM}},
+  url =    {http://www.ctan.org/pkg/acmart},
+  lastaccessed = {May 27, 2017}
+  }
+
+@ARTICLE{bowman:reasoning,
+    author = {Bowman, Mic and Debray, Saumya K. and Peterson, Larry L.},
+    title = {Reasoning About Naming Systems},
+    journal = {ACM Trans. Program. Lang. Syst.},
+    volume = {15},
+    number = {5},
+    pages = {795-825},
+    month = {November},
+    year = {1993},
+    doi = {10.1145/161468.161471},
+}
+
+@ARTICLE{braams:babel,
+    author = {Braams, Johannes},
+    title = {Babel, a Multilingual Style-Option System for Use with LaTeX's Standard Document Styles},
+    journal = {TUGboat},
+    volume = {12},
+    number = {2},
+    pages = {291-301},
+    month = {June},
+    year = {1991},
+}
+
+@INPROCEEDINGS{clark:pct,
+  AUTHOR = "Malcolm Clark",
+  TITLE = "Post Congress Tristesse",
+  BOOKTITLE = "TeX90 Conference Proceedings",
+  PAGES = "84-89",
+  ORGANIZATION = "TeX Users Group",
+  MONTH = "March",
+  YEAR = {1991}
+}
+
+@ARTICLE{herlihy:methodology,
+    author = {Herlihy, Maurice},
+    title = {A Methodology for Implementing Highly Concurrent Data Objects},
+    journal = {ACM Trans. Program. Lang. Syst.},
+    volume = {15},
+    number = {5},
+    pages = {745-770},
+    month = {November},
+    year = {1993},
+    doi = {10.1145/161468.161469},
+}
+
+@BOOK{salas:calculus,
+  AUTHOR = "S.L. Salas and Einar Hille",
+  TITLE = "Calculus: One and Several Variable",
+  PUBLISHER = "John Wiley and Sons",
+  ADDRESS = "New York",
+  YEAR = "1978"
+}
+
+@MANUAL{Fear05,
+  title =        {Publication quality tables in {\LaTeX}},
+  author =       {Simon Fear},
+  month =        {April},
+  year =         2005,
+  note =         {\url{http://www.ctan.org/pkg/booktabs}}
+}
+
+@Manual{Amsthm15,
+  title =        {Using the amsthm Package},
+  organization = {American Mathematical Society},
+  month =        {April},
+  year =         2015,
+  note =         {\url{http://www.ctan.org/pkg/amsthm}}
+}
+
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for roy_shilkrot at 2016-02-23 16:32:01 -0500 
+
+@misc{friendlyarm, title={Nanopi Neo Air}, note={Available at http://nanopi.io/nanopi-neo-air.html}, journal={NanoPi NEO Air}, author={FriendlyArm}}
+
+
+@misc{cmsmultispectral, title={Silios CMS Series}, note={Available at https://www.silios.com/cms-cameras-1}, journal={Silios}}
+
+@misc{openmv, title={OpenMV Cam M7}, note={Available at https://openmv.io/collections/cams/products/openmv-cam-m7}, journal={OpenMV}}
+
+@misc{2m-pixel_usb_camera, title={FA-CAM202 2M-Pixel USB Camera for NanoPi2, Plug and Play}, note={Available at http://www.friendlyarm.com/index.php?route=product%2Fproduct&product_id=90}, journal={2M-Pixel USB Camera}}
+
+@inproceedings{lifton2007tricorder,
+  title={Tricorder: A mobile sensor network browser},
+  author={Lifton, Joshua and Mittal, Manas and Lapinski, Michael and Paradiso, Joseph A},
+  booktitle={Proceedings of the ACM CHI 2007 Conference-Mobile Spatial Interaction Workshop},
+  year={2007}
+}
+
+@article{wiseman2006tissue,
+  title={Tissue imaging at atmospheric pressure using desorption electrospray ionization (DESI) mass spectrometry},
+  author={Wiseman, Justin M and Ifa, Demian R and Song, Qingyu and Cooks, R Graham},
+  journal={Angewandte Chemie International Edition},
+  volume={45},
+  number={43},
+  pages={7188--7192},
+  year={2006},
+  publisher={Wiley Online Library}
+}
+
+@misc{dxter, title={DXTER
+A NEW KIND OF CONSUMER MEDICAL DEVICE}, note={Available at http://www.basilleaftech.com/dxter/
+}, journal={DxtER}}
+
+@article{wojtkiewicz1997two,
+  title={Two-dimensional signal processing in FMCW radars},
+  author={Wojtkiewicz, Andrzej and Misiurewicz, Jacek and Jedrzejewski, Konrad and Kulpa, Krzysztof}
+}
+
+@techreport{rosenberg1992use,
+  title={The Use of Virtual Fixtures as Perceptual Overlays to Enhance Operator Performance in Remote Environments.},
+  author={Rosenberg, Louis B},
+  year={1992},
+  institution={Stanford Univ Ca Center for Design Research}
+}
+@inproceedings{feiner1993windows,
+  title={Windows on the world: 2D windows for 3D augmented reality},
+  author={Feiner, Steven and MacIntyre, Blair and Haupt, Marcus and Solomon, Eliot},
+  booktitle={Proceedings of the 6th annual ACM symposium on User interface software and technology},
+  pages={145--155},
+  year={1993},
+  organization={ACM}
+}
+@article{Yeo:2017:RSH:3176622.3159651,
+ author = {Yeo, Hui-Shyong and Quigley, Aaron},
+ title = {Radar Sensing in Human-computer Interaction},
+ journal = {Interactions},
+ issue_date = {January + February 2018},
+ volume = {25},
+ number = {1},
+ month = dec,
+ year = {2017},
+ issn = {1072-5520},
+ pages = {70--73},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/3159651},
+ doi = {10.1145/3159651},
+ acmid = {3159651},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+
+@INPROCEEDINGS{6575483, 
+author={B. D. Mayton and N. Zhao and M. Aldrich and N. Gillian and J. A. Paradiso}, 
+booktitle={2013 IEEE International Conference on Body Sensor Networks}, 
+title={WristQue: A personal sensor wristband}, 
+year={2013}, 
+volume={}, 
+number={}, 
+pages={1-6}, 
+keywords={Aerospace electronics;Buildings;Lighting;Sensors;Servers;Watches;Wrist}, 
+doi={10.1109/BSN.2013.6575483}, 
+ISSN={2376-8886}, 
+month={May},}
+@inproceedings{mynatt1995transforming,
+  title={Transforming graphical interfaces into auditory interfaces},
+  author={Mynatt, Elizabeth D},
+  booktitle={Conference companion on Human factors in computing systems},
+  pages={67--68},
+  year={1995},
+  organization={ACM}
+}
+
+@article{sawhney2000nomadic,
+  title={Nomadic radio: speech and audio interaction for contextual messaging in nomadic environments},
+  author={Sawhney, Nitin and Schmandt, Chris},
+  journal={ACM transactions on Computer-Human interaction (TOCHI)},
+  volume={7},
+  number={3},
+  pages={353--383},
+  year={2000},
+  publisher={ACM}
+}
+
+@inproceedings{bederson1995audio,
+  title={Audio augmented reality: a prototype automated tour guide},
+  author={Bederson, Benjamin B},
+  booktitle={Conference companion on Human factors in computing systems},
+  pages={210--211},
+  year={1995},
+  organization={ACM}
+}
+
+@phdthesis{bardagjy2013low,
+  title={Low dimensionality spectral sensing for low cost material discrimination and identification},
+  author={Bardagjy, Andrew Matthew},
+  year={2013},
+  school={Massachusetts Institute of Technology}
+}
+
+
+@misc{ti_radar_basics, title={Introduction to mmwave Sensing: FMCW
+Radars}, note={Available at https://training.ti.com/sites/default/files/docs/mmwaveSensing-FMCW-offlineviewing\_4.pdf}}
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+
+@article{Walt:2011:NAS:1957373.1957466,
+ author = {Walt, Stefan van der and Colbert, S. Chris and Varoquaux, Gael},
+ title = {The NumPy Array: A Structure for Efficient Numerical Computation},
+ journal = {Computing in Science and Engg.},
+ issue_date = {March 2011},
+ volume = {13},
+ number = {2},
+ month = mar,
+ year = {2011},
+ issn = {1521-9615},
+ pages = {22--30},
+ numpages = {9},
+ url = {https://doi.org/10.1109/MCSE.2011.37},
+ doi = {10.1109/MCSE.2011.37},
+ acmid = {1957466},
+ publisher = {IEEE Educational Activities Department},
+ address = {Piscataway, NJ, USA},
+ keywords = {NumPy, Python, Python, NumPy, scientific programming, numerical computations, programming libraries, numerical computations, programming libraries, scientific programming},
+} 
+[download]
+
+@misc{scipy,
+  author =    {Eric Jones and Travis Oliphant and Pearu Peterson and others},
+  title =     {{SciPy}: Open source scientific tools for {Python}},
+  year =      {2001--},
+  note = {[Online; accessed from http://www.scipy.org/]}
+}
+
+@misc{wang20172,
+  title={2-D object detection in radar applications},
+  author={Wang, Dan and Ali, Murtaza},
+  year={2017},
+  month=mar # "~14",
+  publisher={Google Patents},
+  note={US Patent 9,594,159}
+}
+@article{laqua1995nomenclature,
+  title={Nomenclature, symbols, units and their usage in spectrochemical analysis-XI. Detection of radiation (IUPAC Recommendations 1995)},
+  author={Laqua, K and Schrader, B and Hoffmann, GG and Moore, DS and Vo-Dinh, T},
+  journal={Pure and applied chemistry},
+  volume={67},
+  number={10},
+  pages={1745--1760},
+  year={1995},
+  publisher={De Gruyter}
+}
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+@article{he2014visible,
+  title={Visible and near-infrared imaging spectrometer and its preliminary results from the Chang’E 3 project},
+  author={He, ZP and Wang, BY and Lv, G and Li, CL and Yuan, LY and Xu, R and Chen, K and Wang, JY},
+  journal={Review of Scientific Instruments},
+  volume={85},
+  number={8},
+  pages={083104},
+  year={2014},
+  publisher={AIP}
+}
+@misc{bgt24img, title={BGT24MTR11}, url={https://www.infineon.com/cms/en/product/sensor/radar-sensor-ics/24ghz-radar/bgt24mtr11/}, journal={Infineon Technologies}, author={Infineon Technologies AG}}
+
+@misc{orb_kp_image, title={ORB Oriented FAST and Rotated BRIEF in OpenCV - ORB (Oriented FAST and Rotated BRIEF) - OpenCV 3.0.0-dev documentation}, note={Image taken from https://docs.opencv.org/3.0-beta/doc/py\_tutorials/py\_feature2d/py\_orb/py\_orb.html}}
+
+@misc{tooltip, title={Control ToolTips
+}, note={http://www.wpf-tutorial.com/control-concepts/tooltips/}}
+
+
+@techreport{rgbnir20060408,
+author={Henry Gordon Dietz},
+title={RGB+NIR Extraction From A Single RAW Image},
+month={Apr},
+year={2006},
+institution={University of Kentucky},
+howpublished={Aggregate.Org online technical report},
+URL={http://aggregate.org/DIT/RGBNIR/}
+}
+@inproceedings{Vazquez:2017:SLL:3027063.3053098,
+ author = {Vazquez, Christian David and Nyati, Afika Ayanda and Luh, Alexander and Fu, Megan and Aikawa, Takako and Maes, Pattie},
+ title = {Serendipitous Language Learning in Mixed Reality},
+ booktitle = {Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+ series = {CHI EA '17},
+ year = {2017},
+ isbn = {978-1-4503-4656-6},
+ location = {Denver, Colorado, USA},
+ pages = {2172--2179},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/3027063.3053098},
+ doi = {10.1145/3027063.3053098},
+ acmid = {3053098},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {augmented reality, computer vision, language learning, mixed reality, serendipitous learning, situated learning},
+} 
+
+@Article{JiménezSerrata2017,
+author="Jim{\'e}nez Serrata, Albert A.
+and Yang, Shufan
+and Li, Renfa",
+title="An intelligible implementation of FastSLAM2.0 on a low-power embedded architecture",
+journal="EURASIP Journal on Embedded Systems",
+year="2017",
+month="Mar",
+day="02",
+volume="2017",
+number="1",
+pages="27",
+abstract="The simultaneous localisation and mapping (SLAM) algorithm has drawn increasing interests in autonomous robotic systems. However, SLAM has not been widely explored in embedded system design spaces yet due to the limitation of processing recourses in embedded systems. Especially when landmarks are not identifiable, the amount of computer processing will dramatically increase due to unknown data association. In this work, we propose an intelligible SLAM solution for an embedded processing platform to reduce computer processing time using a low-variance resampling technique. Our prototype includes a low-cost pixy camera, a Robot kit with L298N motor board and Raspberry Pi V2.0. Our prototype is able to recognise artificial landmarks in a real environment with an average 75{\%} of identified landmarks in corner detection and corridor detection with only average 1.14W.",
+issn="1687-3963",
+doi="10.1186/s13639-017-0075-9",
+url="https://doi.org/10.1186/s13639-017-0075-9"
+}
+
+
+
+@article{Galvez-Lopez:2016:RMO:2873083.2873513,
+ author = {G\'{a}lvez-L\'{o}pez, Dorian and Salas, Marta and Tard\'{o}s, Juan D. and Montiel, J.M.M.},
+ title = {Real-time Monocular Object SLAM},
+ journal = {Robot. Auton. Syst.},
+ issue_date = {January 2016},
+ volume = {75},
+ number = {PB},
+ month = jan,
+ year = {2016},
+ issn = {0921-8890},
+ pages = {435--449},
+ numpages = {15},
+ url = {https://doi.org/10.1016/j.robot.2015.08.009},
+ doi = {10.1016/j.robot.2015.08.009},
+ acmid = {2873513},
+ publisher = {North-Holland Publishing Co.},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ keywords = {Object recognition, Object slam},
+} 
+
+@book{sonka_boyle_hlavac_2008, title={Image processing: analysis and machine vision}, publisher={Thomsson Learning}, author={Sonka, Milan and Boyle, Roger and Hlavac, Vaclav}, year={2008}}
+
+@article{jakubíková_sádecká_kleinová_májek_2016, title={Near-infrared spectroscopy for rapid classification of fruit spirits}, volume={53}, DOI={10.1007/s13197-016-2254-4}, number={6}, journal={Journal of Food Science and Technology}, author={Jakubíková, M. and Sádecká, J. and Kleinová, A. and Májek, P.}, year={2016}, pages={2797–2803}}
+@misc{stinson_2017, title={5 Smart Rules for Designing Wearables That Make Sense}, url={https://www.wired.com/2015/08/5-principles-designing-wearables/}, journal={Wired}, publisher={Conde Nast}, author={Stinson, Elizabeth}, year={2017}, month={Jun}}
+@article{billinghurst_2014, title={The glass class: Designing wearable interfaces}, DOI={10.1109/ismar.2014.6948515}, journal={2014 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)}, author={Billinghurst, Mark}, year={2014}}
+@article{bolt1980put,
+	Author = {Bolt, Richard A},
+	Date-Added = {2016-02-23 21:31:54 +0000},
+	Date-Modified = {2016-02-23 21:31:54 +0000},
+	Journal = {SIGGRAPH Comput. Graph.},
+	Number = {3},
+	Pages = {262--270},
+	Publisher = {ACM},
+	Title = {" Put-that-there": Voice and gesture at the graphics interface},
+	Volume = {14},
+	Year = {1980}}
+@article{josifovski2015object,
+  title={Object recognition: Sift vs convolutional neural networks},
+  author={Josifovski, Josip},
+  journal={University Hamburg-Lecture Intelligent Robotics WS},
+  volume={16},
+  pages={2015},
+  year={2015}
+}
+@misc{tryolabs_blog_2017, title={Object detection: an overview in the age of Deep Learning}, note={Article available at https://tryolabs.com/blog/2017/08/30/object-detection-an-overview-in-the-age-of-deep-learning/}, journal={Tryolabs Blog}, year={2017}, month={Aug}}
+
+@misc{earthmineinfooverload, title={3-D Maps, Camera Phones Put ‘Reality’ in Augmented Reality}, note={Article and image available at https://www.wired.com/2009/12/3d-maps-camera-phones-put-reality-in-augmented-reality/}, year={2009}, month={Dec}}
+
+@article{yovcheva2012smartphone,
+  title={Smartphone augmented reality applications for tourism},
+  author={Yovcheva, Zornitza and Buhalis, Dimitrios and Gatzidis, Christos},
+  journal={E-review of tourism research (ertr)},
+  volume={10},
+  number={2},
+  pages={63--66},
+  year={2012},
+  publisher={Bournemouth University, Fern Barrow, Poole, Dorset, BH12 5BB, UK}
+}
+@misc{nearestneighborsscikitlearndocumentation, title={Nearest Neighbors}, note={http://scikit-learn.org/stable/modules/neighbors.html}, journal={Nearest Neighbors - scikit-learn 0.19.1 documentation}}
+
+@misc{nearestneighborsimage, title={Nearest Neighbors Example Image}, note={http://www.statsoft.com/Textbook/k-Nearest-Neighbors
+}}
+
+@article{louppe2014understanding,
+  title={Understanding random forests: From theory to practice},
+  author={Louppe, Gilles},
+  journal={arXiv preprint arXiv:1407.7502},
+  year={2014}
+}
+@article{capobianco2017vehicle,
+  title={Vehicle classification based on convolutional networks applied to FM-CW radar signals},
+  author={Capobianco, Samuele and Facheris, Luca and Cuccoli, Fabrizio and Marinai, Simone},
+  journal={arXiv preprint arXiv:1710.05718},
+  year={2017}
+}
+@inproceedings{PROEFSCHRIFT2003AircraftRF,
+  title={Aircraft Recognition from Features Extracted from Measured and Simulated Radar Range Profiles Aircraft Recognition from Features Extracted from Measured and Simulated Radar Range Profiles},
+  author={ACADEMISCH PROEFSCHRIFT and Joris Portegies Zwart and Rene Van Der Heiden and Maarten van Roozendaal},
+  year={2003}
+}
+
+@INPROCEEDINGS{7811654, 
+author={J. J. M. de Wit and P. van Dorp and A. G. Huizing}, 
+booktitle={2016 European Radar Conference (EuRAD)}, 
+title={Classification of air targets based on range-Doppler diagrams}, 
+year={2016}, 
+volume={}, 
+number={}, 
+pages={89-92}, 
+keywords={feature extraction;image classification;radar detection;radar imaging;radar tracking;air target classification;microDoppler signatures;nonkinematic feature extraction;radar detections;radar tracking;range Doppler diagrams;spatial target images;Feature extraction;Helicopters;Imaging;Radar imaging;Radar tracking;Rotors;range-Doppler imaging;target classification}, 
+doi={}, 
+ISSN={}, 
+month={Oct},}
+
+@misc{fmcwradartutorial, title={Frequency-Modulated Continuous-Wave Radar (FMCW Radar)}, note={http://www.radartutorial.eu/02.basics/Frequency%20Modulated%20Continuous%20Wave%20Radar.en.html}}
+
+@misc{svmscikit, title={Support Vector Machines}, note={http://scikit-learn.org/stable/modules/svm.html}}
+
+
+@misc{bovwpresenteation, title={Bag of visual words model: recognizing object categories}, note={Presentation available at http://www.robots.ox.ac.uk/~az/icvss08\_az\_bow.pdf}}
+ 
+
+@misc{as7262datasheet, title={AS7262 Spectral Responsivity}, note={https://www.mouser.com/ds/2/588/AS7262\_DS000486\_2-00-1082195.pdf}}
+
+@misc{as7263datasheet, title={AS7263 Spectral Responsivity}, note={https://www.mouser.com/ds/2/588/AS7263\_DS000476\_1-00-1082218.pdf}}
+
+@misc{wikipedia_radar_2018, title={Radar}, note={Article available at https://en.wikipedia.org/wiki/Radar}, journal={Wikipedia}, publisher={Wikimedia Foundation}, year={2018}, month={Apr}}
+
+
+@misc{rfvisualization, title={The Random Forest Algorithm
+}, note={https://towardsdatascience.com/the-random-forest-algorithm-d457d499ffcd}}
+
+@misc{bovwimage, title={Image Classification with Bag of Visual Words}, note={Image available at https://www.mathworks.com/help/vision/ug/image-classification-with-bag-of-visual-words.html}}
+
+@article{weston2014support,
+  title={Support Vector Machine},
+  author={Weston, Jason}
+}
+@misc{batterycalc, title={DigiKey Battery Life Calculator
+}, note={Battery power calculator available at: https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-battery-life}}
+@misc{levi_2013, title={A Short introduction to descriptors}, note={Article available at https://gilscvblog.com/2013/08/18/a-short-introduction-to-descriptors/}, journal={Gil's CV blog}, author={Levi, Gil}, year={2013}, month={Oct}}
+
+
+@misc{levi_orb_2013, title={A tutorial on binary descriptors – part 3 – The ORB descriptor
+}, url={https://gilscvblog.com/2013/10/04/a-tutorial-on-binary-descriptors-part-3-the-orb-descriptor/}, journal={Gil's CV blog}, author={Levi, Gil}, year={2013}, month={Oct}}
+
+@article{ozuysal2010fast,
+  title={Fast keypoint recognition using random ferns},
+  author={Ozuysal, Mustafa and Calonder, Michael and Lepetit, Vincent and Fua, Pascal},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  volume={32},
+  number={3},
+  pages={448--461},
+  year={2010},
+  publisher={IEEE}
+}
+@article{karami2017image,
+  title={Image matching using SIFT, SURF, BRIEF and ORB: Performance comparison for distorted images},
+  author={Karami, Ebrahim and Prasad, Siva and Shehata, Mohamed},
+  journal={arXiv preprint arXiv:1710.02726},
+  year={2017}
+}
+@inproceedings{csurka2004visual,
+  title={Visual categorization with bags of keypoints},
+  author={Csurka, Gabriella and Dance, Christopher and Fan, Lixin and Willamowski, Jutta and Bray, C{\'e}dric},
+  booktitle={Workshop on statistical learning in computer vision, ECCV},
+  volume={1},
+  number={1-22},
+  pages={1--2},
+  year={2004},
+  organization={Prague}
+}
+
+@inproceedings{winder2007learning,
+  title={Learning local image descriptors},
+  author={Winder, Simon AJ and Brown, Matthew},
+  booktitle={Computer Vision and Pattern Recognition, 2007. CVPR'07. IEEE Conference on},
+  pages={1--8},
+  year={2007},
+  organization={IEEE}
+}
+@inproceedings{calonder2010brief,
+  title={Brief: Binary robust independent elementary features},
+  author={Calonder, Michael and Lepetit, Vincent and Strecha, Christoph and Fua, Pascal},
+  booktitle={European conference on computer vision},
+  pages={778--792},
+  year={2010},
+  organization={Springer}
+}
+
+@book{friedman2001elements,
+  title={The elements of statistical learning},
+  author={Friedman, Jerome and Hastie, Trevor and Tibshirani, Robert},
+  volume={1},
+  year={2008},
+  publisher={Springer series in statistics New York}
+}
+
+@book{Mitchell:1997:ML:541177,
+ author = {Mitchell, Thomas M.},
+ title = {Machine Learning},
+ year = {1997},
+ isbn = {0070428077, 9780070428072},
+ edition = {1},
+ publisher = {McGraw-Hill, Inc.},
+ address = {New York, NY, USA},
+} 
+
+@article{feineraddressing,
+  title={Addressing Information Overload in Urban Augmented Reality Applications},
+  author={Feiner, Nicolas J Dedual Steven K}
+}
+
+@misc{hofmann2013object,
+  title={’Object Detection and Tracking with Side Cameras and RADAR in an Automative Contex},
+  author={Hofmann, Peter},
+  year={2013},
+  publisher={Freie University of Berlin}
+}
+
+@article{azuma1997survey,
+  title={A survey of augmented reality},
+  author={Azuma, Ronald T},
+  journal={Presence: Teleoperators \& Virtual Environments},
+  volume={6},
+  number={4},
+  pages={355--385},
+  year={1997},
+  publisher={MIT Press}
+}
+
+
+@misc{adafruit259, title={Adafruit 259 Charger}, note={Image available at https://www.adafruit.com/product/259}, journal={Adafruit 259}}
+
+@misc{liposhim, title={Lipo SHIM}, note={Image available at https://shop.pimoroni.com/products/lipo-shim}, journal={LiPO SHIM}}
+
+@misc{nanopineoairimg, title={Nano Pi Neo Air Purchase}, note={Image available at http://www.friendlyarm.com/index.php?route=product/product\&product\_id=151}, journal={NanoPi NEO Air}}
+
+@misc{as726ximg, title={AS726X Demo Kit}, note={Image taken from https://www.digikey.com/product-detail/en/ams/AS7262-DEMO-KIT/AS7262DEMOKIT-ND/6618885}}
+
+@article{lowe2004distinctive,
+  title={Distinctive image features from scale-invariant keypoints},
+  author={Lowe, David G},
+  journal={International journal of computer vision},
+  volume={60},
+  number={2},
+  pages={91--110},
+  year={2004},
+  publisher={Springer}
+}
+@inproceedings{bay2006surf,
+  title={Surf: Speeded up robust features},
+  author={Bay, Herbert and Tuytelaars, Tinne and Van Gool, Luc},
+  booktitle={European conference on computer vision},
+  pages={404--417},
+  year={2006},
+  organization={Springer}
+}
+@misc{usgs_spectroscopy_lab, note={Available at https://speclab.cr.usgs.gov/aboutrefl.html}, title={USGS Spectroscopy Lab - About Reflectance Spectroscopy}}
+
+ @article{amores_benavides_maes_2015, title={TagMe}, DOI={10.1145/2702613.2732481}, journal={Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems - CHI EA 15}, author={Amores, Judith and Benavides, Xavier and Maes, Pattie}, year={2015}} 
+ @inproceedings{kiseleva2016understanding,
+  title={Understanding user satisfaction with intelligent assistants},
+  author={Kiseleva, Julia and Williams, Kyle and Jiang, Jiepu and Hassan Awadallah, Ahmed and Crook, Aidan C and Zitouni, Imed and Anastasakos, Tasos},
+  booktitle={Proceedings of the 2016 ACM on Conference on Human Information Interaction and Retrieval},
+  pages={121--130},
+  year={2016},
+  organization={ACM}
+}
+@article{westerfield2015intelligent,
+  title={Intelligent augmented reality training for motherboard assembly},
+  author={Westerfield, Giles and Mitrovic, Antonija and Billinghurst, Mark},
+  journal={International Journal of Artificial Intelligence in Education},
+  volume={25},
+  number={1},
+  pages={157--172},
+  year={2015},
+  publisher={Springer}
+}
+
+ @article{bay_ess_tuytelaars_gool_2008, title={Speeded-Up Robust Features (SURF)}, volume={110}, DOI={10.1016/j.cviu.2007.09.014}, number={3}, journal={Computer Vision and Image Understanding}, author={Bay, Herbert and Ess, Andreas and Tuytelaars, Tinne and Gool, Luc Van}, year={2008}, pages={346?359}} 
+ @book{billinghurst_clark_lee_2015, place={Boston}, title={A survey of augmented reality}, publisher={Now}, author={Billinghurst, Mark and Clark, Adrian and Lee, Gun}, year={2015}} 
+ @article{brown_susstrunk_2011, title={Multi-spectral SIFT for scene category recognition}, DOI={10.1109/cvpr.2011.5995637}, journal={Cvpr 2011}, author={Brown, Matthew and Susstrunk, Sabine}, year={2011}} 
+ @article{bruns_brombach_zeidler_bimber_2007, title={Enabling Mobile Phones To Support Large-Scale Museum Guidance}, volume={14}, DOI={10.1109/mmul.2007.33}, number={2}, journal={IEEE Multimedia}, author={Bruns, E. and Brombach, B. and Zeidler, T. and Bimber, O.}, year={2007}, pages={16?25}} 
+ 
+ @article{castle_klein_murray_2010, title={Combining monoSLAM with object recognition for scene augmentation using a wearable camera}, volume={28}, DOI={10.1016/j.imavis.2010.03.009}, number={11}, journal={Image and Vision Computing}, author={Castle, R.o. and Klein, G. and Murray, D.w.}, year={2010}, pages={1548?1556}} 
+ @article{chen_balakrishnan_ravindranath_bahl_2016, title={Glimpse}, volume={20}, DOI={10.1145/2972413.2972423}, number={1}, journal={GetMobile: Mobile Computing and Communications}, author={Chen, Tiffany Yu-Han and Balakrishnan, Hari and Ravindranath, Lenin and Bahl, Paramvir}, year={2016}, pages={26?29}} 
+ @phdthesis{cranor_2011, title={PROTOTOUCH: a system for prototyping ubiquitous computing environments mediated by touch}, author={Cranor, David}, year={2011}} 
+ @article{davison_reid_molton_stasse_2007, title={MonoSLAM: Real-Time Single Camera SLAM}, volume={29}, DOI={10.1109/tpami.2007.1049}, number={6}, journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, author={Davison, Andrew J. and Reid, Ian D. and Molton, Nicholas D. and Stasse, Olivier}, year={2007}, pages={1052?1067}} 
+ 
+ @magazine{ai_assistants, title={Everything You Need To Know About AI Assistants, From Siri To Ozlo}, note={Available at https://www.fastcompany.com/3059719/handicapping-the-ai-assistants-from-siri-to-ozlo}} 
+ 
+ @inproceedings{merrill2005invisible,
+  title={Invisible Media: Attention-sensitive informational augmentation for physical objects},
+  author={Merrill, David and Maes, Pattie},
+  booktitle={Proc. of the Seventh International Conference on Ubiquitous Computing, Tokyo, Japan},
+  year={2005},
+  organization={Citeseer}
+}
+ @incollection{azvine2000intelligent,
+  title={The intelligent assistant: an overview},
+  author={Azvine, Behnam and Djian, David and Tsui, Kwok Ching and Wobcke, Wayne},
+  booktitle={Intelligent Systems and Soft Computing},
+  pages={215--238},
+  year={2000},
+  publisher={Springer}
+}
+
+ @article{feldman_tapia_sadi_maes_schmandt, title={ReachMedia: On-the-move interaction with everyday objects}, DOI={10.1109/iswc.2005.44}, journal={Ninth IEEE International Symposium on Wearable Computers (ISWC05)}, author={Feldman, A. and Tapia, E.m. and Sadi, S. and Maes, P. and Schmandt, C.}} 
+ @article{iida_hirabayashi_azumi_nishio_kato_2014, title={Connected Smartphones and High-Performance Servers for Remote Object Detection}, DOI={10.1109/cpsna.2014.24}, journal={2014 IEEE International Conference on Cyber-Physical Systems, Networks, and Applications}, author={Iida, Yuki and Hirabayashi, Manato and Azumi, Takuya and Nishio, Nobuhiko and Kato, Shinpei}, year={2014}} 
+ @article{jiang_awadallah_jones_ozertem_zitouni_kulkarni_khan_2015, title={Automatic Online Evaluation of Intelligent Assistants}, DOI={10.1145/2736277.2741669}, journal={Proceedings of the 24th International Conference on World Wide Web - WWW 15}, author={Jiang, Jiepu and Awadallah, Ahmed Hassan and Jones, Rosie and Ozertem, Umut and Zitouni, Imed and Kulkarni, Ranjitha Gurunath and Khan, Omar Zia}, year={2015}} 
+ @article{krizhevsky_sutskever_hinton_2017, title={ImageNet classification with deep convolutional neural networks}, volume={60}, DOI={10.1145/3065386}, number={6}, journal={Communications of the ACM}, author={Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E.}, year={2017}, pages={84?90}} 
+ @article{kumar_sun_savarese_2012, title={Mobile object detection through client-server based vote transfer}, DOI={10.1109/cvpr.2012.6248066}, journal={2012 IEEE Conference on Computer Vision and Pattern Recognition}, author={Kumar, S. S. and Sun, Min and Savarese, S.}, year={2012}} 
+ @article{lien_gillian_karagozler_amihood_schwesig_olson_raja_poupyrev_2016, title={Soli}, volume={35}, DOI={10.1145/2897824.2925953}, number={4}, journal={ACM Transactions on Graphics}, author={Lien, Jaime and Gillian, Nicholas and Karagozler, M. Emre and Amihood, Patrick and Schwesig, Carsten and Olson, Erik and Raja, Hakim and Poupyrev, Ivan}, year={2016}, month={Nov}, pages={1?19}} 
+ @article{lindeman_noma_barros_2007, title={Hear-Through and Mic-Through Augmented Reality: Using Bone Conduction to Display Spatialized Audio}, DOI={10.1109/ismar.2007.4538843}, journal={2007 6th IEEE and ACM International Symposium on Mixed and Augmented Reality}, author={Lindeman, Robert W. and Noma, Haruo and Barros, Paulo Goncalves De}, year={2007}} 
+
+ @book{lukac_plataniotis_2007, place={Boca Raton, FL}, title={Color image processing: methods and applications}, publisher={CRC/Taylor & Francis}, author={Lukac, Rastislav and Plataniotis, Konstantinos N.}, year={2007}} 
+ @article{mistry_maes_2009, title={SixthSense}, DOI={10.1145/1667146.1667160}, journal={ACM SIGGRAPH ASIA 2009 Sketches on - SIGGRAPH ASIA 09}, author={Mistry, Pranav and Maes, Pattie}, year={2009}} 
+ @article{foner1999artificial,
+  title={Artificial synesthesia via sonification: A wearable augmented sensory system},
+  author={Foner, Leonard N},
+  journal={Mobile Networks and Applications},
+  volume={4},
+  number={1},
+  pages={75--81},
+  year={1999},
+  publisher={Springer-Verlag New York, Inc.}
+}
+ @article{nanayakkara_shilkrot_maes_2012, title={EyeRing}, DOI={10.1145/2212776.2212382}, journal={Proceedings of the 2012 ACM annual conference extended abstracts on Human Factors in Computing Systems Extended Abstracts - CHI EA 12}, author={Nanayakkara, Suranga and Shilkrot, Roy and Maes, Pattie}, year={2012}} 
+ @misc{mycroft, title={Mycroft - Open Source Artificial Intelligence for Everyone}, note={Available at https://mycroft.ai/}, journal={Mycroft}} 
+ @phdthesis{rich_2013, title={Encoding data into physical objects with digitally fabricated textures}, author={Rich, Travis}, year={2013}} 
+ 
+ @misc{gadgets360, title={Google lens google io screenshot google}, note={Image taken from https://gadgets.ndtv.com/apps/news/google-lens-ai-announced-io-2017-assistant-photos-1694927}, journal={Gadgets 360}}
+ 
+ @book{robles-kelly_huynh_2013, place={London}, title={Imaging Spectroscopy for Scene Analysis}, publisher={Springer London}, author={Robles-Kelly, Antonio and Huynh, Cong Phuoc.}, year={2013}} 
+
+@misc{fingerreader_img, title={FingerReader}, note={Image taken from http://www.ahlab.org/project/fingerreader}, journal={FingerReader | Augmented Human Lab}}
+
+ @article{rublee_rabaud_konolige_bradski_2011, title={ORB: An efficient alternative to SIFT or SURF}, DOI={10.1109/iccv.2011.6126544}, journal={2011 International Conference on Computer Vision}, author={Rublee, Ethan and Rabaud, Vincent and Konolige, Kurt and Bradski, Gary}, year={2011}} 
+ @article{rämö_välimäki_2012, title={Digital Augmented Reality Audio Headset}, volume={2012}, DOI={10.1155/2012/457374}, journal={Journal of Electrical and Computer Engineering}, author={Rämö, Jussi and Välimäki, Vesa}, year={2012}, pages={1?13}} 
+ @article{scheeline_2010, title={Teaching, Learning, and Using Spectroscopy with Commercial, Off-the-Shelf Technology}, volume={64}, DOI={10.1366/000370210792434378}, number={9}, journal={Applied Spectroscopy}, author={Scheeline, Alexander}, year={2010}} 
+ @article{penchev_andreev_varmuza_1999, title={Automatic classification of infrared spectra using a set of improved expert-based features}, volume={388}, url={https://pdfs.semanticscholar.org/5d69/ccbcca0f37eb91055f2e98b02e3b22b6ba9b.pdf}, DOI={10.1016/s0003-2670(99)00100-2}, number={1-2}, journal={Analytica Chimica Acta}, author={Penchev, Plamen N. and Andreev, George N. and Varmuza, Kurt}, year={1999}, pages={145–159}}
+ @article{shilkrot_huber_ee_maes_nanayakkara_2015, title={FingerReader}, DOI={10.1145/2702123.2702421}, journal={Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems - CHI 15}, author={Shilkrot, Roy and Huber, Jochen and Ee, Wong Meng and Maes, Pattie and Nanayakkara, Suranga Chandima}, year={2015}} 
+ @book{skoog_holler_crouch_2018, place={Australia}, title={Principles of instrumental analysis}, publisher={Cengage Learning}, author={Skoog, Douglas A. and Holler, F. James and Crouch, Stanley R.}, year={2018}} 
+ @article{smith_chu_espenson2011, title={Cell-Phone-Based Platform for Biomedical Device Development and Education Applications}, volume={6}, DOI={10.1371/journal.pone.0017150}, number={3}, journal={PLoS ONE}, author={Smith, Zachary J. and Chu, Kaiqin and Espenson, Alyssa R. and Rahimzadeh, Mehdi and Gryshuk, Amy and Molinaro, Marco and Dwyre, Denis M. and Lane, Stephen and Matthews, Dennis and Wachsmann-Hogiu, Sebastian and et al.}, year={2011}, month={Feb}} 
+ @article{zhu_yao_zhao_zheng_2017, title={Object Recognition and Navigation using a Single Networking Device}, DOI={10.1145/3081333.3081339}, journal={Proceedings of the 15th Annual International Conference on Mobile Systems, Applications, and Services - MobiSys 17}, author={Zhu, Yanzi and Yao, Yuanshun and Zhao, Ben Y. and Zheng, Haitao}, year={2017}}
+ @article{zhu_zhu_zhao_zheng_2015, title={Reusing 60GHz Radios for Mobile Radar Imaging}, DOI={10.1145/2789168.2790112}, journal={Proceedings of the 21st Annual International Conference on Mobile Computing and Networking - MobiCom 15}, author={Zhu, Yanzi and Zhu, Yibo and Zhao, Ben Y. and Zheng, Haitao}, year={2015}}
+ @phdthesis{micka_2017, title={Objects Identification in signal processing of FMCW RADAR for Advanced Driver Assistance Systems}, author={Micka, Vojtěch}, year={2017}}
+ @INPROCEEDINGS{4632220, 
+author={Zhengping Ji and D. Prokhorov}, 
+booktitle={2008 11th International Conference on Information Fusion}, 
+title={Radar-vision fusion for object classification}, 
+year={2008}, 
+volume={}, 
+number={}, 
+pages={1-7}, 
+keywords={feature extraction;image classification;image representation;object recognition;radar signal processing;road vehicle radar;video cameras;automotive radar;learning method;multilayer inplace learning network;object classification;orientation-selective feature detectors;radar-vision fusion;sparse representations;task classification;video cameras;MILN;attention selection;automotive;camera;radar;sparse representation}, 
+doi={}, 
+ISSN={}, 
+month={June},}
+ @article{demirci2012study,
+  title={A study on millimeter-wave imaging of concealed objects: Application using back-projection algorithm},
+  author={Demirci, Sevket and Cetinkaya, Harun and Yigit, Enes and Ozdemir, Caner and Vertiy, Alexey A},
+  journal={Progress In Electromagnetics Research},
+  volume={128},
+  pages={457--477},
+  year={2012},
+  publisher={EMW Publishing}
+}
+@misc{ivrl_2012, title={Combining near-infrared and visible images}, note={Image taken from article available at https://ivrl.epfl.ch/research/infrared/enhanement}, journal={Combining near-infrared and visible images | IVRL}, year={2012}, month={Jan}}
+ @article{liao2002identification,
+  title={Identification of ground targets from sequential high-range-resolution radar signatures},
+  author={Liao, Xuejun and Runkle, Paul and Carin, Lawrence},
+  journal={IEEE Transactions on Aerospace and Electronic systems},
+  volume={38},
+  number={4},
+  pages={1230--1242},
+  year={2002},
+  publisher={IEEE}
+}
+
+@phdthesis{scott2017three,
+  title={Three-Dimensional Microwave Imaging for Indoor Environments},
+  author={Scott, Simon},
+  year={2017},
+  school={University of California, Berkeley}
+}
+
+@misc{sinhal_2016, title={Object Detection using Deep Learning for advanced users (Part-1)}, note={Image taken from article available at https://medium.com/ilenze-com/object-detection-using-deep-learning-for-advanced-users-part-1-183bbbb08b19}, journal={Medium}, publisher={ilenze.com}, author={Sinhal, Koustubh}, year={2016}, month={Sep}}
+
+
+@article{pillai2015monocular,
+  title={Monocular slam supported object recognition},
+  author={Pillai, Sudeep and Leonard, John},
+  journal={arXiv preprint arXiv:1506.01732},
+  year={2015}
+}
+
+ @article{swain_ballard, title={Indexing via color histograms}, DOI={10.1109/iccv.1990.139558}, journal={[1990] Proceedings Third International Conference on Computer Vision}, author={Swain, M.j. and Ballard, D.h.}} 
+ @article{tang_paluri_fei-fei_fergus_bourdev_2015, title={Improving Image Classification with Location Context}, DOI={10.1109/iccv.2015.121}, journal={2015 IEEE International Conference on Computer Vision (ICCV)}, author={Tang, Kevin and Paluri, Manohar and Fei-Fei, Li and Fergus, Rob and Bourdev, Lubomir}, year={2015}} 
+ @article{wang_xiong_chen_jiang_balan_fang_2017, title={TagScan}, DOI={10.1145/3117811.3117830}, journal={Proceedings of the 23rd Annual International Conference on Mobile Computing and Networking  - MobiCom 17}, author={Wang, Ju and Xiong, Jie and Chen, Xiaojiang and Jiang, Hongbo and Balan, Rajesh Krishna and Fang, Dingyi}, year={2017}} 
+ @misc{princeton_terahertz, title={Wave of the future: Terahertz chips a new way of seeing through matter}, note={Available at https://www.princeton.edu/news/2017/02/08/wave-future-terahertz-chips-new-way-seeing-through-matter}, journal={Princeton University}, publisher={The Trustees of Princeton University}} 
+ 
+ @article{yeo_flamich_schrempf_harris-birtill_quigley_2016, title={RadarCat}, DOI={10.1145/2984511.2984515}, journal={Proceedings of the 29th Annual Symposium on User Interface Software and Technology  - UIST 16}, author={Yeo, Hui-Shyong and Flamich, Gergely and Schrempf, Patrick and Harris-Birtill, David and Quigley, Aaron}, year={2016}} 
